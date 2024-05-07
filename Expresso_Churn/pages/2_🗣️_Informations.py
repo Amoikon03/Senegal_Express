@@ -12,7 +12,7 @@ st.title("**Les informations relatives à ces données.**")
 
 
 # Chargement de données du fichier csv
-df = pd.read_csv("Expresso.csv")
+df = pd.read_csv("Expresso_Churn/Expresso.csv")
 
 
 # Afficher les noms des données
