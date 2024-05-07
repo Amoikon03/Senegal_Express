@@ -7,7 +7,7 @@ def main():
     st.title("Data Manipulation")
 
     # Charger le fichier CSV
-    df = pd.read_csv("Expresso.csv")
+    df = pd.read_csv("Expresso_Churn/Expresso.csv")
 
     afficher_informations_generales(df)
     supprimer_doublons(df)
