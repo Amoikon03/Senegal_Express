@@ -21,7 +21,7 @@ def main():
     st.title("Modèle de Prédiction")
 
     # Chargement des données à partir du fichier pickle
-    df = load_data(r"C:\EAM\Expresso\data_frame.pkl")
+    df = load_data(r"Expresso_Churn/data_frame.pkl")
 
     # Entraînement du modèle d'apprentissage automatique avec Random Forest
     st.header("Entraînement du modèle d'apprentissage automatique (Random Forest)")
