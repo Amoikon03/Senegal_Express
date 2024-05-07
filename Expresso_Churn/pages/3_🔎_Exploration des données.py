@@ -8,7 +8,7 @@ st.title("Exploration des données")
 
 
 # Charger le fichier csv
-df = pd.read_csv("Expresso.csv")
+df = pd.read_csv("Expresso_Churn/Expresso.csv")
 
 
 # Afficher la forme du DataFrame (nombre de lignes et de colonnes)
